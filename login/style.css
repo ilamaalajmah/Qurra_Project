@@ -1,0 +1,98 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown-item {
+    text-align: right !important;
+}
+
+
+section{
+    position: relative;
+    width: 100%;
+    height:100vh;
+    display: flex;
+}
+section .imgBx {
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+section .imgBx:befores{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(225deg,#e91e63,#03a9f4);
+
+}
+section .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section .contentBx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+section .contentBx .formBx{
+    width: 50%;
+}
+section .contentBx h1{
+    color:purple;
+    font-weight: 400px;
+    margin-bottom: 18px;
+    border-bottom: 3px solid blueviolet;
+    display: inline-block;
+
+}
+
+section .contentBx .formBx .inputBx{
+    font-size: 25px;
+    margin-bottom: 8px;
+    display: inline-block;
+    font-weight: 400px;
+    font-size: 19px;
+}
+section .contentBx .formBx .inputBx input{
+   width: 100%;
+   padding: 6px 16px;
+   outline: none;
+   border: 0 0 2px 0 soil black;
+   font-weight: 400px;
+   font-size: 20px;
+}
+section .contentBx .formBx .inputBx input[type="submit"]{
+    background: yellowgreen;
+    color: white;
+    outline: none;
+    font-weight: 400;
+    cursor: pointer;
+}
+section .contentBx .formBx .inputBx input[type="submit"]:hover{
+    background: green;
+}
+section .contentBx .formBx .inputBx input p{
+    color: #607d8b;
+}
+section .contentBx .formBx .inputBx input p a{
+    color: yellowgreen
+}

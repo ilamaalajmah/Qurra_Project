@@ -1,0 +1,6 @@
+User Page ip:
+Run Xammp Server As Administratour and in edge past this link:
+
+http://localhost/Qurra/index.php
+
+
